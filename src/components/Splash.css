@@ -1,0 +1,13 @@
+.title{
+  color: Pink;
+  font-family: 'Stalemate', cursive;
+  font-size: 10vw;
+  text-align: center;
+  padding-left: 50vw;
+
+}
+.splash{
+  background-image: url(./images/carrots-leeks 1.jpg);
+  background-image: cover;
+
+}
