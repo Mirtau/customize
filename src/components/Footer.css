@@ -1,3 +1,10 @@
 .end{
-  color: purple;
+  color: 	#5A0101;
+  font-size: 2vw;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: .5vw;
+}
+.footer{
+  background-color: #93BE33;
+  height:10vw;
 }

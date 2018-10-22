@@ -1,3 +1,30 @@
 .header{
   color: orange;
 }
+.toppic{
+  height: 10vw;
+  width:auto;
+}
+.link{
+  margin-top: 10vw;
+  color: #FFFFFF;
+  padding-right: 2vw;
+  font-size: 2vw;
+
+}
+.navbar-brand{
+  width: 10vw;
+  height: auto;
+
+}
+.logo{
+  width:10vw;
+  float:left;
+}
+.navbar{
+  background-color: darkred;
+}
+#basic-nav-dropdown{
+  font-family: ethnocentricregular;
+  color: #FFFFFF;
+}

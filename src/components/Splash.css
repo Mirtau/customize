@@ -1,13 +1,26 @@
 .title{
-  color: Pink;
+  color: #c61fc1;
   font-family: 'Stalemate', cursive;
   font-size: 10vw;
+  text-shadow: 2px 2px #070007;
   text-align: center;
-  padding-left: 50vw;
+  padding-left: 15vw;
+}
+.container1{
+  background-image: url(./images/open.jpg);
+  background-image: cover;
+}
+.col-words{
+  color: #350101;
+  font-family: 'Montserrat', sans-serif;
+}
+.bot-words{
+  color: #350101;
+  font-family: 'Montserrat', sans-serif;
 
 }
-.splash{
-  background-image: url(./images/carrots-leeks 1.jpg);
-  background-image: cover;
-
+.photosp{
+  height: 15vw;
+  width: auto;
+  float: left;
 }
