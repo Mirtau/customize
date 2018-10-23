@@ -1,5 +1,5 @@
 .header{
-  color: orange;
+  color: 	#FED905;
 }
 .toppic{
   height: 10vw;
@@ -17,14 +17,28 @@
   height: auto;
 
 }
-.logo{
+.apple{
   width:10vw;
   float:left;
 }
 .navbar{
   background-color: darkred;
+
 }
 #basic-nav-dropdown{
   font-family: ethnocentricregular;
-  color: #FFFFFF;
+  color: #FED905;
+  text-shadow: 2px 2px #070007;
+  font-size: 2vw;
+}
+.top{
+  padding-top: 3vw;
+  padding-right: 4vw;
+  font-size: 4vw;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.Utop{
+  padding-right: 4vw;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2vw;
 }

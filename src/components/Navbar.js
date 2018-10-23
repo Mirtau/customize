@@ -14,22 +14,24 @@ class CustomizedNavbar extends Component {
         <Navbar>
         <Navbar.Header>
           <Navbar.Brand>
-           <img src={require('./images/apple2.png')}/>
+          <Link to='./'> <img className='apple' src={require('./images/apple2.png')}/></Link>
           </Navbar.Brand>
         </Navbar.Header>
-        <Nav>
+        <p className='top'>Don't Worry !!</p>
+        <p className='Utop'>We Are Here to Help</p>
+        <Nav pullRight>
           {/* <NavItem eventKey={1} href="#">
             Link
           </NavItem>
           <NavItem eventKey={2} href="#">
             Link
           </NavItem> */}
-          <NavDropdown eventKey={3} title="More Information" id="basic-nav-dropdown">
-            <MenuItem eventKey={3.1}>About Me</MenuItem>
-            <MenuItem eventKey={3.2}>Testimonals</MenuItem>
-            <MenuItem eventKey={3.3}>How Will It Work</MenuItem>
-            <MenuItem divider />
-            <MenuItem eventKey={3.4}>Separated link</MenuItem>
+          <NavDropdown  title="More Information" id="basic-nav-dropdown">
+            <Link to='./About'><MenuItem >About Me</MenuItem></Link>
+            <Link to='./Testimonials'><MenuItem >Testimonals</MenuItem></Link>
+            <Link to='./How'><MenuItem >How Will It Work</MenuItem></Link>
+            {/* <MenuItem divider />
+            <MenuItem eventKey={3.4}>Separated link</MenuItem> */}
           </NavDropdown>
         </Nav>
       </Navbar>;

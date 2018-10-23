@@ -18,10 +18,10 @@ class App extends Component {
       <Router>
       <div className="App">
           <CustomizedNavbar />
-          <Splash />
-          <About />
-          <Testimonials />
-          <How />
+          <Route exact path ='/' component={Splash} />
+          <Route exact path ='/About' component={About}/>
+          <Route exact path='/Testimonials' component={Testimonials} />
+          <Route exact path='/How' component={How}/>
           <Footer />
       </div>
     </Router>
